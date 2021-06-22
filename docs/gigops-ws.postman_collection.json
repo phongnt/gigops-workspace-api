@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "8b9224eb-bb69-4376-ae16-fc69bac66bdd",
+		"name": "gigops-ws",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "hello",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "client_authentication",
+							"value": "body",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "state",
+							"value": "asdasd",
+							"type": "string"
+						},
+						{
+							"key": "scope",
+							"value": "openid email profile",
+							"type": "string"
+						},
+						{
+							"key": "challengeAlgorithm",
+							"value": "S256",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "0oa112rcrkzzXMvOZ5d7",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://dev-60768584.okta.com/oauth2/default/v1/token",
+							"type": "string"
+						},
+						{
+							"key": "authUrl",
+							"value": "https://dev-60768584.okta.com/oauth2/default/v1/authorize",
+							"type": "string"
+						},
+						{
+							"key": "useBrowser",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code_with_pkce",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "Okta",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		}
+	]
+}
